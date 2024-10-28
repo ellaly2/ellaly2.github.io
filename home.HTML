@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ella Ly's Home Page</title>
+<link rel="stylesheet" type="text/css" href="home.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"></a>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="animation.HTML">Animations</a></li>
+            <li><a href="images.HTML">Images</a></li>
+        </ul>
+    </header>
+    <section>
+        <img src = "bg_pics/backpicture.png" id="background">
+        <h2 id="text">Hi, I'm Ella!</h2>
+        <a href="#sec" id="btn">Explore</a>
+        <img src = "bg_pics/Frontpicture.png" id="background2">
+    </section>
+    <div class="sec" id="sec">
+        <h2>About Me!</h2>
+        <div class = "container">
+            <div class = "text">
+                <p>My name is Ella Ly and I am starting my second year at Simon Fraser University. I am studying computer science, inside and outside of school. I have been learning programming languages such as Python and HTML since early high school years.
+                    <br></br> As a hobby, I enjoy playing around with programs such as Unreal Engine and Unity to learn about video game design. Aside from programming, I enjoy doing digital art on a particular program named Medibang Paint Pro. I enjoy learning by doing hands-on work. 
+                    <br></br> I am proficient in other programming languages such as C, C++, and java.
+                    <br></br>
+                    <br></br>
+                    <br></br> Contact: ellaly2220@gmail.com
+                    <br></br> 
+                    <li><a href="https://github.com/ellaly2">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/ella-ly-17374a331/">Linkedin</a></li>
+
+                    <br></br><br></br><br></br>
+                </p>
+            </div>
+            <div class = "image">
+                <img src = "Me!.jpg">
+            </div>
+        
+        </div>
+        
+    </div>
+
+    <script>
+        let background = document.getElementById('background');
+        let text = document.getElementById('text');
+        let btn = document.getElementById('btn');
+        let background2 = document.getElementById('background2');
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            background.style.top = value*0.5 + 'px';
+            background2.style.top = value*0 + 'px';
+            text.style.marginRight = value*4 + 'px';
+            text.style.marginTop =value*.3+ 'px';
+            btn.style.marginTop = value*.8 + 'px';
+        })
+
+
+</script>
+
+</body>
+</html>
