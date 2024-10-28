@@ -58,5 +58,19 @@
                 <img src="" alt="Popup Image">
             </div>
         </div>
+
+        <script>
+            document.querySelectorAll('.image-container img').forEach(image => {
+                image.onclick = () => {
+                    document.querySelector('.popup-image').style.display = 'block';
+                    document.querySelector('.popup-image img').src = image.getAttribute('src');
+                }      
+            });
+            document.querySelector('.popup-image').onclick = (e) => {
+                if (e.target === document.querySelector('.popup-image')) {
+                    document.querySelector('.popup-image').style.display = 'none';
+                }
+            };
+        </script>
     </section>
 </body>
