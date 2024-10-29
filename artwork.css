@@ -55,6 +55,13 @@ h2 {
     border: radius 20px;
 
 }
+p {
+    color: white;
+    text-align:center;
+    font-size:20pt;
+    font-weight:lighter;
+    border: radius 20px;
+}
 
 .container{
     position: relative;
