@@ -131,6 +131,11 @@ img {
     font-size: 1.5em;
     color: #fff;
 }
+.sec h3{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #fff;
+}
 .sec li{
     list-style: none; 
 }
