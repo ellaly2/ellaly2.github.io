@@ -1,0 +1,21 @@
+#This is a YAML for index.html
+site:
+  title: "Ella Ly's Home Page"
+  author: "Ella Ly"
+  Summary: "Ella Ly's home page that contains personal information and bio"
+
+stylesheet:
+  home.css
+
+images:
+  background_image_1: "bg_pics/backpicture.png"
+  background_image_2: "bg_pics/Frontpicture.png"
+  profile_image: "Me!.jpg"
+
+links:
+  GitHub: "https://github.com/ellaly2"
+  Linkedin: "https://www.linkedin.com/in/ella-ly-17374a331/"
+  School: "https://www.sfu.ca/"
+  Faculty: "https://www.sfu.ca/fas.html"
+  Program: "https://www.sfu.ca/computing.html"
+  Major: "https://www.sfu.ca/computing/prospective-students/undergraduate-students/programs/degree-programs/dual-degree-program.html"
