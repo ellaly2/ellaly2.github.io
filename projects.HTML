@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Ella Ly's Projects Page</title>
-<link rel="icon" type="image/x-icon" href="favicon.png">
-<link rel="stylesheet" type="text/css" href="projects.css">
+    <meta charset="UTF-8">
+    <title>Ella Ly's Projects Page</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" type="text/css" href="projects.css">
 </head>
+
 <body>
     <header>
         <a href="#" class="logo"></a>
@@ -14,29 +16,62 @@
             <li><a href="artwork.HTML">Artwork</a></li>
         </ul>
     </header>
+
     <section>
-        <br></br>
-        <br></br>
-        <H2> Projects </H2>
-        <br></br>
-        <div class = "intro">
-            <p>This section contains past projects   </p>
+        <br><br>
+        <h2 style="text-align:center;">Projects</h2>
+        <br>
+        <div class="intro">
+            <p style="text-align:center;">This section contains past projects</p>
+        </div>
+    </section>
+
+    <div class="project">
+        <h3>Fine-Tuning Segment Anything Model</h3>
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/DGHAxlcROsQ?si=P8BVTXudverv3L8C" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+
+        <p>This project was completed to fine-tune SAM by producing better segmentations of brain tumors.</p>
+
+        <a class="github_link" href="https://github.com/sfu-cmpt419/2025_1_project_01.git">Access GitHub Here!</a>
+    </div>
+
+    <hr>
+
+    <div class="project">
+        <h3>NomNomAI</h3>
+        <div class="project-image">
+            <img src="./bg_pics/logo.png" alt="NomNomAI Logo" />
         </div>
 
-    </section>
-    <h3>CalcQuest</h3>
-    <iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/3tqs05YfeAI" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
+        <p>NomNomAI is a project where users can easily search for meal recipes based on their preferences and ingredients at home.</p>
 
+        <a class="github_link" href="https://github.com/IsithaT/NomNomAI.git">Access NomNomAI Here!</a>
+    </div>
 
-    <p>CalcQuest is a game-based website designed to support young mathematical learners. Our website includes matching games, multiple choice games, as well as AI-powered tutors!</p>
-    <a class="calcquest_link"href="https://calcquest.vercel.app/">Access CalcQuest Here!</a>
-    <br>
-    <br>
+    <hr>
+
+    <div class="project">
+        <h3>CalcQuest</h3>
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/3tqs05YfeAI" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+
+        <p>CalcQuest is a game-based website designed to support young mathematical learners. Our website includes matching games, multiple choice games, as well as AI-powered tutors!</p>
+
+        <a class="github_link" href="https://calcquest.vercel.app/">Access CalcQuest Here!</a>
+    </div>
+
 </body>
+</html>
